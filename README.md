@@ -6,6 +6,6 @@ method that name is SendEmail in interface class and use several emails from it.
 Good Luck
 
 ## contact me
-#### reza.tajari70@gmail.com
-#### telegram Id= @gateofmoney
+#### email: reza.tajari70@gmail.com
+#### telegram Id: @gateofmoney
 
