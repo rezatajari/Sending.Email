@@ -1,10 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Sending.Emails.Interface;
+using System;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Sending.Emails.Repositories
 {
-    public class SendOutlook
+    public class SendOutlook : ISend
     {
+        public long Id { get; set; }
+        public string To { get; set; }
+
+        public async Task SendEmail()
+        {
+            Thread.Sleep(500);
+            await Task.Run(() =>
+            {
+                Console.ForegroundColor = ConsoleColor.White;
+                Console.WriteLine("==============White===============");
+                Console.WriteLine($"Id is: {this.Id} and send email is: OUTLOOK{this.To}");
+                Console.WriteLine("=============================");
+            });
+
+        }
     }
 }
