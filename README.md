@@ -7,5 +7,5 @@ Good Luck
 
 ## contact me
 #### Email: reza.tajari70@gmail.com
-#### Telegram Id: @gateofmoney
+#### Telegram Id: <a href="https://telegram.me/gateofmoney">gateofmoney</a>
 
